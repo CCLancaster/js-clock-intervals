@@ -16,10 +16,6 @@ let minuteRotation = 0;
 let hourRotation = 0;
 
 setInterval(function() {
-    
-    // secondRotation = secondCount / 60 * 360;
-    // minuteRotation = minuteCount / (60 * 60) * 360;
-    // hourRotation = hourCount / (60 * 60 * 12) * 360;
 
     seconds.style.transform = "rotate(" + (secondRotation += secondCount) + "deg)";
     minute.style.transform = "rotate(" + (minuteRotation += minuteCount) + "deg)";
@@ -29,7 +25,10 @@ setInterval(function() {
 
 }, 1000);
 
+// setInterval(function(){
+//     console.log("TICK!");
+//  }, 1000);
 
-setInterval(function(){
-    console.log("TICK!");
- }, 1000);
+// secondRotation = secondCount / 60 * 360;
+// minuteRotation = minuteCount / (60 * 60) * 360;
+// hourRotation = hourCount / (60 * 60 * 12) * 360;
