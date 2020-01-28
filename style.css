@@ -13,15 +13,15 @@
 
 #hour {
     position: absolute;
-    transform: rotate(45deg);
+    transform: rotate(0deg);
 }
 
 #minute {
     position: absolute;
-    transform: rotate(45deg);
+    transform: rotate(0deg);
 }
 
 #second {
     position: absolute;
-    transform: rotate(45deg);
+    transform: rotate(0deg);
 }
