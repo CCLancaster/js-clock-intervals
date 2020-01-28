@@ -8,7 +8,7 @@ var degrees = 0;
 let count = 0;
 
 let secondCount = 6
-let minuteCount = .06
+let minuteCount = .1
 let hourCount = .00833333
 
 let secondRotation = 0;
